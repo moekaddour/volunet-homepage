@@ -17,6 +17,7 @@ import {Collapse,
   CarouselCaption
 } from "reactstrap";
 
+
 const items = [
   {
     src: "carousel1.jpg",
@@ -56,6 +57,9 @@ class App extends Component {
     this.onExiting = this.onExiting.bind(this);
     this.onExited = this.onExited.bind(this);
     this.toggle = this.toggle.bind(this);
+  }
+  componentDidMount(){
+    document.title="Volunet"
   }
   onExiting() {
     this.animating = true;
