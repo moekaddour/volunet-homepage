@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import "./App.css";
 import {Collapse,
+  Container ,
   Button ,
   Jumbotron,
   Navbar,
@@ -120,7 +121,7 @@ class App extends Component {
 
     return (
       
-      <div>
+      <div className= "">
         <div>
         <Navbar color="light" light expand="md">
           <NavbarBrand href="/"><img src="logo.png" height="65"/></NavbarBrand>
@@ -170,32 +171,33 @@ class App extends Component {
         </Carousel>
         </div>
         <br/>
-        <div>
+        <br/>
+        <div className="container-fluid">
       <Jumbotron>
         <h1 className="display-3">More people. More impact.</h1>
         <p className="lead"></p>
         <hr className="my-2" />
-        <p>Volunet is the most effective way to recruit highly qualified volunteers for your nonprofit. We match you with <br/>people who are passionate about and committed to your 
-        cause, and who can help when and where you need them.<br/>
+        <p>Volunet is the most effective way to recruit highly qualified volunteers for your nonprofit. We match you with people who are passionate about and committed to your 
+        cause, and who can help when and where you need them.
         And because volunteers are often donors as well, we make it easy for them to contribute their time and money.</p>
         <p className="lead">
           <Button color="primary">Learn More</Button>
         </p>
       </Jumbotron>
     </div>
-        <div>
+        <div className="container-fluid">
       <Jumbotron>
         <h1 className="display-3">Hello, world!</h1>
         <p className="lead">Get connected to qualified volunteers when and where you need them.</p>
         <hr className="my-2" />
-        <p>With more volunteers and more volunteer opportunities than any other service,<br/> 
+        <p>With more volunteers and more volunteer opportunities than any other service,
         Volunet is how good people and good causes get connected.</p>
         <p className="lead">
           <Button color="primary">Get started</Button>
         </p>
       </Jumbotron>
     </div>
-        <div>
+        <div className="container-fluid">
       <Jumbotron>
         <h1 className="display-3">Nonprofits</h1>
         <p className="lead">nonprofits rely on Volunet</p>
