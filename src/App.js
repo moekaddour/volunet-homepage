@@ -142,6 +142,9 @@ class App extends Component {
               <NavItem>
                 <NavLink href="">Blog</NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink href="">FAQ</NavLink>
+              </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
